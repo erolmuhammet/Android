@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="video_list_item_height">90dp</dimen>
+    <dimen name="video_list_item_width">90dp</dimen>
+    <dimen name="video_list_item_margin">4dp</dimen>
+</resources>

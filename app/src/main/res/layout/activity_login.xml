@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.infoline.android.activity.LoginActivity">
+
+    <EditText
+        android:id="@+id/activity_login_edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/activity_login_edittext_username_hint"
+        android:inputType="text"
+        android:maxLength="8"/>
+
+    <EditText
+        android:text="14562335"
+        android:id="@+id/activity_login_edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/activity_login_edittext_password_hint"
+        android:inputType="numberPassword"
+        android:maxLength="8"/>
+
+    <Button
+        android:id="@+id/activity_login_button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonLoginClick"
+        android:text="@string/activity_login_button"/>
+
+
+</LinearLayout>

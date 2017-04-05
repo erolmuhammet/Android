@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InfolineApp</string>
+    <string name="action_add">Add</string>
+    <string name="toast_activity_list_permission_granted">Permission Granted</string>
+    <string name="activity_login_button">Login</string>
+    <string name="activity_login_edittext_username_hint">Username</string>
+    <string name="activity_login_edittext_password_hint">Password</string>
+    <string name="toast_activity_login_unauthorized_attempt">Unauthorized Attempt</string>
+    <string name="activity_login">Login</string>
+    <string name="toast_activity_login_invalid_passsword">Invalid Password</string>
+    <string name="toast_activity_login_invalid_username">Invalid Username</string>
+    <string name="toast_service_download_malformed_url">Malformed Url</string>
+    <string name="toast_service_download_file_not_found">File Not Found</string>
+    <string name="toast_service_download_generic_error">IO Exception</string>
+    <string name="activity_player">Player</string>
+    <string name="activity_list_downloading">Downloading</string>
+    <string name="toast_activity_list_downloading_still">Download Not Completed</string>
+    <string name="activity_list">Videos</string>
+</resources>
