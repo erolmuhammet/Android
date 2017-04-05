@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
       if (userObject != null && (System.currentTimeMillis() - userObject.getLastLoginDate()) < 300000) {
          toListActivity(userObject.getId());
-      } else if (userObject != null) {
+      } else if (userObject != null && lastLoginDate > 0) {
          editTextUsername.setText(userObject.getUsername());
          editTextPassword.requestFocus();
       }
